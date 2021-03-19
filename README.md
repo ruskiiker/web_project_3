@@ -1,20 +1,19 @@
-# Project 3: From Portland to Portland
+# Practicum Project 3
+A web-responsive front-end webpage about a coast-to-coast trip.
 
-### Overview
-* Intro
-* Figma
-* Images
+## Overview
+The webpage was developed fully using a Figma briefing for each of the resolution intervals. It is programmed for the following resolutions: ≥ 1280px, 1024px-1280px, 768px-1024px and ≤ 425px.
 
-**Intro**
+## Usage
+BEM Methodology https://en.bem.info
+CSS3
+HTML5
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+## Contributing
+This project has been individually developed by 'ruskiiker', and is public in the framework of the Yandex Practicum web-programming course.
 
-**Figma**
+## Project Link
+https://ruskiiker.github.io/web_project_3
 
-* [Link to the project on Figma](https://www.figma.com/file/AtbNbstbxWPcMqvF061V0R/Sprint-3%3A-From-Portland-to-Portland-%7C-desktop-%2B-mobile?node-id=0%3A1)
-
-**Images**
-
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-
-Good luck and have fun!
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

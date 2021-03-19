@@ -1,0 +1,30 @@
+.page {
+  margin: 0 auto;
+  max-width: 1280px;
+  min-width: 320px;
+  box-sizing: content-box;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  background-color: #2A2C2F;
+  color: #FFFFFF;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    min-width: 320px;
+  }
+}
+
+/* Widths:
+≥ 1280px
+1024px-1280px
+768px-1024px
+425px-768px
+≤ 425px */

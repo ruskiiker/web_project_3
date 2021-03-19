@@ -1,0 +1,14 @@
+.cover__background {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../images/cover-route-66.jpg);
+    background-size: cover;
+    background-position: center
+}
+
+@media screen and (max-width: 320px) {
+    .cover__background {
+        bottom-margin: 286px;
+    }
+}

@@ -1,0 +1,43 @@
+@import url('__title/cover__title.css');
+@import url('__subtitle/cover__subtitle.css');
+@import url('__background/cover__background.css');
+@import url('__background-link/cover__background-link.css');
+
+.cover {
+  margin: 0 auto;
+  width: calc(100% - 48px * 2);
+  max-width: 1184px;
+  height: 740px;
+  box-sizing: border-box;
+  }
+
+.cover:hover {
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+
+@media screen and (max-width: 1280px) {
+  .cover {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__link {
+      min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__link {
+      min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover__link {
+      min-height: 200px;
+      margin-bottom: 64px;
+      box-sizing: content-box;
+  }
+}
