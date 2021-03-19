@@ -4,11 +4,11 @@
     height: 100%;
     background-image: url(../../../images/cover-route-66.jpg);
     background-size: cover;
-    background-position: center
+    background-position: center;
 }
 
 @media screen and (max-width: 320px) {
     .cover__background {
-        bottom-margin: 286px;
+        margin-bottom: 286px;
     }
 }

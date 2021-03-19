@@ -34,7 +34,6 @@
     margin-bottom: 48px;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto;
-    margin-bottom: 48px;
     grid-template-areas:
       "title"
       "image"
