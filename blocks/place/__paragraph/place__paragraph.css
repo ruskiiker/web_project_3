@@ -1,9 +1,7 @@
 .place__paragraph {
-  font-family: 'Inter';
   font-weight: 400;
   font-size: 18px;
   line-height: 29.34px;
-  margin: 0;
 }
 
 .place__paragraph:not(:last-child) {

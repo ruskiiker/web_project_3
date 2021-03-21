@@ -3,7 +3,7 @@
   max-width: 1280px;
   min-width: 320px;
   box-sizing: content-box;
-  font-family: 'Inter';
+  font-family: 'Inter', 'Trebuchet MS', sans-serif;
   font-style: normal;
   font-weight: normal;
   background-color: #2A2C2F;
@@ -14,12 +14,6 @@
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-}
-
-@media screen and (max-width: 768px) {
-  .page {
-    min-width: 320px;
-  }
 }
 
 /* Widths:

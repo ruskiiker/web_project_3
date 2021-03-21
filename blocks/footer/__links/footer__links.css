@@ -3,17 +3,12 @@
     padding: 0;
     display: flex;
     list-style: none;
-    box-sizing: border-box;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
     .footer__links {
-        margin-bottom: 12px;
-        padding: 0;
-        display: flex;
+        margin-bottom: 48px;
+        padding-left: 16px;
         flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-start;
-        box-sizing: border-box;
     }
 }
