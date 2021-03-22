@@ -14,11 +14,6 @@
   box-sizing: border-box;
 }
 
-.cover:hover {
-  opacity: 0.3;
-  filter: alpha(opacity=30);
-}
-
 @media screen and (max-width: 1024px) {
   .cover {
     max-width: 100%;

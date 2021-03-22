@@ -1,5 +1,5 @@
 .photo-grid__list {
-    margin: 0 auto 92px;
+    margin: 0 auto 80px;
     padding-left: 0;
     width: 100%;
     max-width: 1184px;
@@ -9,3 +9,15 @@
     list-style: none;
 
 }
+
+@media screen and (max-width: 768px) {
+    .place__description {
+        margin: 0 auto 88px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .place__description {
+        margin: 0 auto 64px;
+    }
+  }

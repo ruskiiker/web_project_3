@@ -7,6 +7,23 @@
     align-items: center;
     justify-content: center;
     object-fit: cover;
-    background: url("../../../images/cover-route-66.jpg") no-repeat center;
-    background-size: 100% 100%; 
+    text-decoration: none;
+    position: relative;
+}
+
+.cover__background-link:hover {
+    opacity: .25;
+    cursor: pointer;
+}
+
+.cover__background-link::before {
+    content: "";
+    background-image: url("../../../images/cover-route-66.jpg");
+    background-size: cover;
+    background-position: top center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
 }
