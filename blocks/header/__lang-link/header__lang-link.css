@@ -7,7 +7,6 @@
 .header__lang-link:first-child {
     margin-right: 18px;
 }
-}
 
 @media screen and (max-width: 1024px) {
     .header__lang-link {
