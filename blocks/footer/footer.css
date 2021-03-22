@@ -3,7 +3,7 @@
 @import url('__copyright/footer__copyright.css');
 
 .footer {
-  width: calc(100% - 48px*2);
+  width: calc(100% - 48px * 2);
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -12,13 +12,13 @@
 
 @media screen and (max-width: 1024px) {
   .footer {
-    width: calc(100% - 24px*2);
+    width: calc(100% - 24px * 2);
   }
 }
 
 @media screen and (max-width: 768px) {
   .footer {
-    width: calc(100% - 16px*2);
+    width: calc(100% - 16px * 2);
   }
 }
 
