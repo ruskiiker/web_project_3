@@ -8,7 +8,7 @@
   line-height: 1.1;
   position: relative;
   color: #fff;
-  z-index: 1;
+  z-index: 3;
 }
 
 @media screen and (max-width: 767px) {
