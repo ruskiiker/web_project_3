@@ -37,16 +37,17 @@
   .cover__background-link {
     padding: 23.85% 0;
   }
+}
 
-  @media screen and (max-width: 1023px) {
-    .cover__background-link {
-      padding: 21.40% 0;
-    }
+@media screen and (max-width: 1023px) {
+  .cover__background-link {
+    padding: 21.40% 0;
+  }
+}
 
-
-    @media screen and (max-width: 767px) {
-      .cover__background-link {
-        width: 100vw;
-        padding: 18.4% 0;
-      }
-    }
+@media screen and (max-width: 767px) {
+  .cover__background-link {
+    width: 100vw;
+    padding: 18.4% 0;
+  }
+}
