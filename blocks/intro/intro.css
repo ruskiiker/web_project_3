@@ -6,25 +6,26 @@
 @import url('__span-accent/intro__span-accent.css');
 
 .intro {
-  max-width: 690px;
-  margin: 110px 442px 92px 148px;
+  width: 984px;
+  margin: 92px auto 0 auto;
 }
 
 @media screen and (max-width: 1023px) {
   .intro {
-      margin: 92px 286px 92px 48px;
+    margin: 88px auto 0;
+    width: calc(100% - (24px * 2));
   }
 }
 
 @media screen and (max-width: 767px) {
   .intro {
-      margin: 88px auto;
-      max-width: 720px;
+    margin: 88px auto;
+    max-width: 720px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .intro {
-      margin: 64px 16px 92px 16px;
+    margin: 64px 16px 92px 16px;
   }
 }
