@@ -1,0 +1,15 @@
+.place__description {
+  margin: 0;
+  width: 100%;
+  grid-area: description;
+  font-size: 18px;
+  line-height: 1.63;
+}
+
+@media screen and (max-width: 767px) {
+  .place__description {
+    width: 90%;
+    font-size: 16px;
+    margin: 30px 16px;
+  }
+}
