@@ -2,7 +2,7 @@
 @import url('__list/photo-grid__list.css');
 
 .photo-grid {
-  margin: 64px 148px 0;
+  margin: 64px auto 0 auto;
   max-width: 984px;
   width: calc(100% - 48px * 2);
 }
