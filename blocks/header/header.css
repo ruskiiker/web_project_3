@@ -4,7 +4,7 @@
 @import url('__lang-link/_active/header__lang-link_active.css');
 
 .header {
-    margin: 34px auto 58px;
+    margin: 34px auto 0;
     max-width: 984px;
     width: 90%;
     display: flex;
