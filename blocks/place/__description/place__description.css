@@ -1,18 +1,18 @@
 .place__description {
+  margin: 30px 16px;
   width: 90%;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 163%;
-  margin: 30px 16px;
+  line-height: 1.63;
 }
 
 @media screen and (min-width: 768px) {
   .place__description {
-    grid-area: description;
-    width: 100%;
     margin: 0;
+    width: 100%;
+    grid-area: description;
   }
 }
 

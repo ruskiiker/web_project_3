@@ -1,14 +1,14 @@
 .place__image-item {
-  width: 100%;
   margin-bottom: 24px;
   margin-left: 0px;
+  width: 100%;
   object-fit: cover;
 }
 
 @media screen and (min-width: 768px) {
   .place__image-item {
-    grid-area: image;
     margin: 0;
     padding: 0;
+    grid-area: image;
   }
 }
