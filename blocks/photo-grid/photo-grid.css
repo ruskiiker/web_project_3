@@ -3,7 +3,7 @@
 
 .photo-grid {
   margin: 64px auto 0 auto;
-  max-width: 984px;
+  max-width: 1184px;
   width: calc(100% - 48px * 2);
 }
 
@@ -13,8 +13,6 @@
     margin-left: 48px;
   }
 }
-
-
 
 @media screen and (max-width: 1023px) {
   .photo-grid {

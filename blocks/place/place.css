@@ -8,7 +8,7 @@
 @import url('__image-item/place__image-item.css');
 
 .place {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   width: 100%;
   display: flex;
@@ -19,7 +19,7 @@
 
 @media screen and (min-width: 1280px) {
   .place {
-    width: 984px;
+    max-width: 984px;
     column-gap: 40px;
   }
 }
@@ -27,21 +27,20 @@
 @media screen and (min-width: 1024px) {
   .place {
     padding-bottom: 80px;
-    width: 928px;
     grid-template-columns: minmax(440px, 1fr) auto;
     column-gap: 32px;
   }
 }
 
+
 @media screen and (min-width: 768px) {
   .place {
     padding-bottom: 72px;
-    width: 720px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
-    "title url"
-    "image description";
+      "title url"
+      "image description";
     row-gap: 48px;
     column-gap: 28px;
   }

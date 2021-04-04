@@ -2,13 +2,16 @@
     margin: 46px 148px 0 0;
     font-size: 24px;
     line-height: 28px;
+    text-decoration: none;
+    background-color: transparent;
+    color: #fff;
 }
 
 .header__lang-link:first-child {
     margin-right: 18px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .header__lang-link {
         margin: 46px 48px 0 0;
         font-size: 18px;
@@ -17,7 +20,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .header__lang-link {
         margin: 46px 24px 0 0;
         font-size: 18px;
@@ -29,8 +32,12 @@
 @media screen and (max-width: 320px) {
     .header__lang-link {
         margin: 30px 16px 0 0;
-        font-size: 18px;
-        line-height: 20px;
 
     }
+}
+
+.header__lang-link:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s;
 }

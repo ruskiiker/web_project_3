@@ -5,9 +5,9 @@
     list-style: none;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 767px) {
     .footer__links {
-        margin-bottom: 48px;
+        margin-bottom: 24px;
         padding-left: 16px;
         flex-direction: column;
     }
