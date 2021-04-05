@@ -8,6 +8,10 @@
   line-height: 1.63;
 }
 
+.place__description:last-of-type {
+margin-bottom: 0;
+}
+
 @media screen and (min-width: 1024px) {
   .place__description {
     font-size: 18px;
