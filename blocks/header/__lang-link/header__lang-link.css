@@ -23,15 +23,13 @@
 @media screen and (max-width: 767px) {
     .header__lang-link {
         margin: 46px 24px 0 0;
-        font-size: 18px;
-        line-height: 20px;
 
     }
 }
 
 @media screen and (max-width: 320px) {
     .header__lang-link {
-        margin: 30px 16px 0 0;
+        margin: 30px 18px 0 0;
 
     }
 }
