@@ -2,19 +2,22 @@
   margin: 30px 16px;
   width: 90%;
   font-family: 'Inter', 'Trebuchet MS', sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
-  line-height: 1.63;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .place__description:last-of-type {
-margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 @media screen and (min-width: 1024px) {
   .place__description {
     font-size: 18px;
+    line-height: 29px;
   }
 }
 
